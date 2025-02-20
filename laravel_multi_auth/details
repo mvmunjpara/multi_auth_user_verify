@@ -1,0 +1,11 @@
+Laravel Multi Authentication
+.....................................
+1. PHP Version >=8.2
+2. Composer 
+3. Donwload laravel
+	composer create-project laravel/laravel:^11.0 laravel_multi_auth
+4.Create and configuration database
+5. Add guard and providers in auth.php
+6. create middlewares for guest and authenticated routes for admin
+7. Register middleware in bootstrap/app.php
+8. Write custom Authentication for admin and Normal user
